@@ -108,13 +108,11 @@ source,target,relation_detail,weight,source_name,source_bio,target_name,target_b
 11,56,family,3,Albus Dumbledore,Headmaster of Hogwards killed by Snape.,Molly Weasley,Wife of Arthur and mother of the Weasleys. Kills Bellatrix.
 11,57,family,3,Albus Dumbledore,Headmaster of Hogwards killed by Snape.,Percy Weasley,Third son of Arthur and Molly. He is a Gryffindor prefect.
 11,58,friendship,2,Albus Dumbledore,Headmaster of Hogwards killed by Snape.,Ron Weasley,Harry's best friend. Marries Hermione.
-12,12,family,3,Dudley Dursley,Muggle son of Vernon and Petunia and first-cousin of Harry.,Dudley Dursley,Muggle son of Vernon and Petunia and first-cousin of Harry.
 12,14,family,3,Dudley Dursley,Muggle son of Vernon and Petunia and first-cousin of Harry.,Vernon Dursley,Harry's muggle uncle.
 12,39,family,3,Dudley Dursley,Muggle son of Vernon and Petunia and first-cousin of Harry.,Harry Potter,The boy who lived. Main character of the series.
 12,22,family,3,Dudley Dursley,Muggle son of Vernon and Petunia and first-cousin of Harry.,Rubeus Hagrid,Half-giant who loves Harry. He was the keeper of Keys and Grounds at Hogwards.
 13,11,family,3,Petunia Dursley,Harry's aunt and sister of Lily.,Albus Dumbledore,Headmaster of Hogwards killed by Snape.
 13,12,family,3,Petunia Dursley,Harry's aunt and sister of Lily.,Dudley Dursley,Muggle son of Vernon and Petunia and first-cousin of Harry.
-13,13,family,3,Petunia Dursley,Harry's aunt and sister of Lily.,Petunia Dursley,Harry's aunt and sister of Lily.
 13,39,family,3,Petunia Dursley,Harry's aunt and sister of Lily.,Harry Potter,The boy who lived. Main character of the series.
 13,41,family,3,Petunia Dursley,Harry's aunt and sister of Lily.,Lily Potter,Mother of Harry. Murdered by Voldemort.
 14,11,enmity,-3,Vernon Dursley,Harry's muggle uncle.,Albus Dumbledore,Headmaster of Hogwards killed by Snape.
@@ -305,7 +303,6 @@ source,target,relation_detail,weight,source_name,source_bio,target_name,target_b
 42,45,enmity,-3,Quirinus Quirrell,Possessed by Voldemort. Defence against the Dark Arts professor.,Lord Voldemort,The antagonist of the series who murdered many.
 45,42,enmity,-3,Lord Voldemort,The antagonist of the series who murdered many.,Quirinus Quirrell,Possessed by Voldemort. Defence against the Dark Arts professor.
 43,45,family,3,Tom Riddle Sr.,Muggle father of Voldemort who was killed by him.,Lord Voldemort,The antagonist of the series who murdered many.
-43,43,family,3,Tom Riddle Sr.,Muggle father of Voldemort who was killed by him.,Tom Riddle Sr.,Muggle father of Voldemort who was killed by him.
 43,44,family,3,Tom Riddle Sr.,Muggle father of Voldemort who was killed by him.,Mary Riddle,Muggle mother of Voldemort who was killed by him.
 44,43,family,3,Mary Riddle,Muggle mother of Voldemort who was killed by him.,Tom Riddle Sr.,Muggle father of Voldemort who was killed by him.
 44,45,family,3,Mary Riddle,Muggle mother of Voldemort who was killed by him.,Lord Voldemort,The antagonist of the series who murdered many.

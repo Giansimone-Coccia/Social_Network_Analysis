@@ -108,13 +108,11 @@ source,target,relation_detail,weight
 11,56,family,3
 11,57,family,3
 11,58,friendship,2
-12,12,family,3
 12,14,family,3
 12,39,family,3
 12,22,family,3
 13,11,family,3
 13,12,family,3
-13,13,family,3
 13,39,family,3
 13,41,family,3
 14,11,enmity,-3
@@ -305,7 +303,6 @@ source,target,relation_detail,weight
 42,45,enmity,-3
 45,42,enmity,-3
 43,45,family,3
-43,43,family,3
 43,44,family,3
 44,43,family,3
 44,45,family,3
