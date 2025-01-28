@@ -1,37 +1,26 @@
-# Social Network Analysis su Harry Potter
+# Social Network Analysis on Harry Potter
 
-Questo progetto utilizza i dati del dataset ["Harry Potter Network Analysis"](https://github.com/gauthammk/Harry-Potter-Network-Analysis) per costruire e analizzare una rete sociale basata sui personaggi e le loro relazioni nei libri di Harry Potter. Il progetto esplora diverse metriche e tecniche per comprendere la struttura e la dinamica del grafo sociale.
+This project uses data from the ["Harry Potter Network Analysis"](https://github.com/gauthammk/Harry-Potter-Network-Analysis) dataset to build and analyze a social network based on characters and their relationships in the Harry Potter books. The project explores various metrics and techniques to understand the structure and dynamics of the social graph.
 
+## Project Description
+The project focuses on analyzing relationships between characters in the Harry Potter saga. Using data about characters and their relationships, a graph representing the social network was constructed. Various *Social Network Analysis (SNA)* tools and techniques were then applied to study:
+- **Centrality**: Measures of degree, closeness, betweenness, and eigenvector centrality.
+- **Triads and Cliques**: Identification and analysis of graph substructures.
+- **K-core decomposition**: Study of network cohesion.
+- **Ego-network**: Analysis of ego-centric networks for main characters.
 ---
-
-## Descrizione del progetto
-
-Il progetto si concentra sull'analisi delle relazioni tra i personaggi della saga di Harry Potter. Utilizzando i dati sui personaggi e sulle loro relazioni, è stato costruito un grafo che rappresenta la rete sociale. Sono stati poi applicati vari strumenti e tecniche di *Social Network Analysis (SNA)* per studiare:
-
-- **Centralità**: Misure di degree, closeness, betweenness, ed eigenvector centrality.
-- **Triadi e Clique**: Identificazione e analisi delle sottostrutture del grafo.
-- **K-core decomposition**: Studio della coesione della rete.
-- **Ego-network**: Analisi delle reti ego-centriche per i personaggi principali.
-
----
-
 ## Dataset
-
-Il dataset è stato estratto da [Harry Potter Network Analysis](https://github.com/gauthammk/Harry-Potter-Network-Analysis) e include due file principali:
-
-- **`characters.csv`**: Contiene informazioni sui personaggi, inclusi il nome e il ruolo (protagonista, antagonista, ecc.).
-- **`relations.csv`**: Contiene le relazioni tra i personaggi, con peso che rappresenta l'importanza o la frequenza dell'interazione.
-
+The dataset was extracted from [Harry Potter Network Analysis](https://github.com/gauthammk/Harry-Potter-Network-Analysis) and includes two main files:
+- **`characters.csv`**: Contains information about characters, including name and role (protagonist, antagonist, etc.).
+- **`relations.csv`**: Contains relationships between characters, with weights representing the importance or frequency of interaction.
 ---
-
-## Obiettivi del progetto
-
-1. **Visualizzare la rete sociale**: Creare una rappresentazione grafica della rete dei personaggi.
-2. **Calcolare metriche di centralità**:
-    - **Degree centrality**: Per identificare i personaggi più connessi.
-    - **Closeness centrality**: Per individuare i personaggi che possono raggiungere facilmente altri personaggi nella rete.
-    - **Betweenness centrality**: Per identificare i "ponti" o mediatori nella rete.
-    - **Eigenvector centrality**: Per individuare i personaggi più influenti nella rete.
-3. **Analizzare triadi e clique**: Per comprendere la formazione di sottogruppi.
-4. **Studiare il K-core**: Per analizzare le aree più dense e coese della rete.
-5. **Ego-network analysis**: Per esplorare le reti locali intorno ai personaggi principali.
+## Project Objectives
+1. **Visualize the social network**: Create a graphical representation of the character network.
+2. **Calculate centrality metrics**:
+    - **Degree centrality**: To identify the most connected characters.
+    - **Closeness centrality**: To identify characters who can easily reach other characters in the network.
+    - **Betweenness centrality**: To identify "bridges" or mediators in the network.
+    - **Eigenvector centrality**: To identify the most influential characters in the network.
+3. **Analyze triads and cliques**: To understand the formation of subgroups.
+4. **Study K-core**: To analyze the densest and most cohesive areas of the network.
+5. **Ego-network analysis**: To explore local networks around main characters.
